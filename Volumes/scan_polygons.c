@@ -14,10 +14,6 @@
 
 #include  "bicpl_internal.h"
 
-#ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Volumes/scan_polygons.c,v 1.16 2005-08-17 22:26:19 bert Exp $";
-#endif
-
 #define  MAX_TEMP_STORAGE  1000
 
 
@@ -274,9 +270,25 @@ BICAPI void  scan_polygons_to_voxels(
             vertices[vertex] = polygons->points[point_index];
         }
 
+        /* If there are colours in this object, use them to replace label.
+           This will be an average value of the gray level index in each
+           polygon. */
+
+        int col = label;
+        if( polygons->colour_flag == PER_VERTEX_COLOURS ) {
+          float val = 0.0;
+          for_less( vertex, 0, size ) {
+            point_index = polygons->indices[POINT_INDEX(polygons->end_indices,poly,vertex)];
+            val += get_Colour_r_0_1( polygons->colours[point_index] );
+          }
+          col = (int)( 255.0 * val / (float)size );
+        } else if( polygons->colour_flag == PER_ITEM_COLOURS ) {
+          col = (int)( 255.0 * get_Colour_r_0_1( polygons->colours[poly] ) );
+        }
+
         scan_a_polygon( size, vertices, voxels, 
 			2*max_size, output_vertices,
-                        volume, label_volume, sizes, label );
+                        volume, label_volume, sizes, col );
 
     }
 
