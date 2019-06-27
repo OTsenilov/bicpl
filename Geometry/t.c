@@ -14,7 +14,7 @@
 
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Geometry/t.c,v 1.3 2000-02-06 15:30:19 stever Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Geometry/t.c,v 1.3 2000/02/06 15:30:19 stever Exp $";
 #endif
 
 #include  <volume_io/internal_volume_io.h>

@@ -2,7 +2,7 @@
  *
  * Author: Bert Vincent
  *
- * $Header: /private-cvsroot/libraries/bicpl/config.h.msvc-win32,v 1.1 2005-06-03 18:10:42 bert Exp $
+ * $Header: /home/users/clepage/CVS/libraries/bicpl/config.h.msvc-win32,v 1.1 2005/06/03 18:10:42 bert Exp $
  */
 
 #ifndef _CONFIG_H_

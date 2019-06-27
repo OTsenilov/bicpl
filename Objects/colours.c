@@ -16,7 +16,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Objects/colours.c,v 1.11 2005-08-17 22:28:26 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Objects/colours.c,v 1.11 2005/08/17 22:28:26 bert Exp $";
 #endif
 
 static Colour ANTIQUE_WHITE_COL;

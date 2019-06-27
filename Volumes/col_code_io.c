@@ -15,7 +15,7 @@
 #include  "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Volumes/col_code_io.c,v 1.6 2005-08-17 22:26:19 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Volumes/col_code_io.c,v 1.6 2005/08/17 22:26:19 bert Exp $";
 #endif
 
 #define    DEFAULT_USER_DEFINED_COLOUR_CODE_SUFFIX      "ccd"

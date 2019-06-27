@@ -22,7 +22,7 @@
 @GLOBALS    : 
 @CREATED    : August 30, 1993 (Peter Neelin)
 @MODIFIED   : $Log: compute_xfm.c,v $
-@MODIFIED   : Revision 1.19  2014-09-25 22:59:13  claude
+@MODIFIED   : Revision 1.19  2014/09/25 22:59:13  claude
 @MODIFIED   : added subdivide_texture.c and 2-D xfm detection
 @MODIFIED   :
 @MODIFIED   : Revision 1.18  2005/08/17 22:26:47  bert
@@ -99,7 +99,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Transforms/compute_xfm.c,v 1.19 2014-09-25 22:59:13 claude Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Transforms/compute_xfm.c,v 1.19 2014/09/25 22:59:13 claude Exp $";
 #endif
 
 /* Function declarations */

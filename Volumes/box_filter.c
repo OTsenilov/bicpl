@@ -15,7 +15,7 @@
 #include  "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Volumes/box_filter.c,v 1.20 2005-08-17 22:26:18 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Volumes/box_filter.c,v 1.20 2005/08/17 22:26:18 bert Exp $";
 #endif
 
 #define  DEBUG

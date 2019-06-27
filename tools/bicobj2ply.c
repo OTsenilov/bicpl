@@ -136,7 +136,7 @@ int main( int ac, char** av )
     comment1 = concat_strings
 	( create_string( "From BIC file: " ), create_string( av[1] ) );
     comment2 = create_string
-	( "Converted by bicobj2ply $Id: bicobj2ply.c,v 1.1 2001-02-12 18:09:48 stever Exp $" );
+	( "Converted by bicobj2ply $Id: bicobj2ply.c,v 1.1 2001/02/12 18:09:48 stever Exp $" );
 
     process_file( av[1] );
 

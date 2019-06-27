@@ -15,7 +15,7 @@
 #include  "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Volumes/mapping.c,v 1.34 2005-08-17 22:26:19 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Volumes/mapping.c,v 1.34 2005/08/17 22:26:19 bert Exp $";
 #endif
 
 #define  DISTANCE_THRESHOLD  1.0e-10

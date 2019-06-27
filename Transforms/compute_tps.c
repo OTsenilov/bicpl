@@ -32,7 +32,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Transforms/compute_tps.c,v 1.13 2005-08-17 22:26:47 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Transforms/compute_tps.c,v 1.13 2005/08/17 22:26:47 bert Exp $";
 #endif
 
 /* prototype definitions: */

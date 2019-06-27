@@ -16,7 +16,7 @@
 ---------------------------------------------------------------------------- */
 
 #ifndef lint
-static char splines_rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Include/bicpl/splines.h,v 1.1 2000-10-07 10:40:37 stever Exp $";
+static char splines_rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Include/bicpl/splines.h,v 1.1 2000/10/07 10:40:37 stever Exp $";
 #endif
 
 #include  <volume_io.h>

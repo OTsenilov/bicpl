@@ -16,7 +16,7 @@
 #include  <assert.h>
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Objects/quadmesh.c,v 1.21 2005-08-17 22:28:27 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Objects/quadmesh.c,v 1.21 2005/08/17 22:28:27 bert Exp $";
 #endif
 
 

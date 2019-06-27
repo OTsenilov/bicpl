@@ -15,7 +15,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Geometry/platonics.c,v 1.5 2005-08-17 22:30:25 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Geometry/platonics.c,v 1.5 2005/08/17 22:30:25 bert Exp $";
 #endif
 
 static  void  fill_in_indices(

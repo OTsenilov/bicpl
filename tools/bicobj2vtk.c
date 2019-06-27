@@ -293,7 +293,7 @@ int main( int ac, char** av )
 
     /* Spit out the header */
     fprintf( out, "# vtk DataFile Version 2.0\n" );
-    fprintf( out, "File '%s' (converted by bicobj2vtk $Id: bicobj2vtk.c,v 1.4 2003-04-26 19:39:19 stever Exp $\n", av[1] );
+    fprintf( out, "File '%s' (converted by bicobj2vtk $Id: bicobj2vtk.c,v 1.4 2003/04/26 19:39:19 stever Exp $\n", av[1] );
     fprintf( out, "ASCII\n" );
     fprintf( out, "DATASET POLYDATA\n" );
     

@@ -15,7 +15,7 @@
 #include  "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Volumes/render.c,v 1.46 2009-06-29 18:10:48 claude Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Volumes/render.c,v 1.46 2009/06/29 18:10:48 claude Exp $";
 #endif
 
 /* ----------------------------- MNI Header -----------------------------------

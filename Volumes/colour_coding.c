@@ -15,7 +15,7 @@
 #include  "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Volumes/colour_coding.c,v 1.30 2014-10-29 20:50:19 claude Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Volumes/colour_coding.c,v 1.30 2014/10/29 20:50:19 claude Exp $";
 #endif
 
 static void  interpolate_colours(

@@ -13,7 +13,7 @@
 ---------------------------------------------------------------------------- */
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Objects/texture_values.c,v 1.7 2005-08-17 22:28:27 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Objects/texture_values.c,v 1.7 2005/08/17 22:28:27 bert Exp $";
 #endif
 
 #include "bicpl_internal.h"

@@ -25,7 +25,7 @@
 #include <stdlib.h>
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Prog_utils/random.c,v 1.15 2005-08-17 22:27:56 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Prog_utils/random.c,v 1.15 2005/08/17 22:27:56 bert Exp $";
 #endif
 
 static  BOOLEAN  initialized = FALSE;

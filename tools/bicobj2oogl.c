@@ -104,7 +104,7 @@ int main( int ac, char** av )
     }
 
     fprintf( out, "## File '%s' converted to OOGL format\n", av[1] );
-    fprintf( out, "## by bicobj2oogl $Id: bicobj2oogl.c,v 1.2 2001-06-06 01:49:58 stever Exp $\n\n" );
+    fprintf( out, "## by bicobj2oogl $Id: bicobj2oogl.c,v 1.2 2001/06/06 01:49:58 stever Exp $\n\n" );
 
     process_file( av[1] );
 

@@ -18,7 +18,7 @@
 
 #define  MAX_POINTS    30
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Testing/ray_intersect.c,v 1.3 2000-02-06 15:30:49 stever Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Testing/ray_intersect.c,v 1.3 2000/02/06 15:30:49 stever Exp $";
 #endif
 
 

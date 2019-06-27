@@ -16,7 +16,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Transforms/optimize.c,v 1.16 2005-08-17 22:26:47 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Transforms/optimize.c,v 1.16 2005/08/17 22:26:47 bert Exp $";
 #endif
 
 #define   FUNCTION_TOLERANCE    1e-6

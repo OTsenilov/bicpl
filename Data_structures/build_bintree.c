@@ -15,7 +15,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Data_structures/build_bintree.c,v 1.13 2005-08-17 22:31:12 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Data_structures/build_bintree.c,v 1.13 2005/08/17 22:31:12 bert Exp $";
 #endif
 
 #define  NODE_VISIT_COST        0.02

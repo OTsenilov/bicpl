@@ -15,7 +15,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Prog_utils/time.c,v 1.8 2005-08-17 22:27:56 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Prog_utils/time.c,v 1.8 2005/08/17 22:27:56 bert Exp $";
 #endif
 
 static  Real  cpu_start_time;

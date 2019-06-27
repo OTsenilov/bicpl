@@ -22,7 +22,7 @@
 @GLOBALS    : 
 @CREATED    : April 21, 1994 (Peter Neelin)
 @MODIFIED   : $Log: safe_compute_xfm.c,v $
-@MODIFIED   : Revision 1.13  2005-08-17 22:26:48  bert
+@MODIFIED   : Revision 1.13  2005/08/17 22:26:48  bert
 @MODIFIED   : Replace public/private with BICAPI/static
 @MODIFIED   :
 @MODIFIED   : Revision 1.12  2005/06/03 18:08:37  bert
@@ -80,7 +80,7 @@
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Transforms/safe_compute_xfm.c,v 1.13 2005-08-17 22:26:48 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Transforms/safe_compute_xfm.c,v 1.13 2005/08/17 22:26:48 bert Exp $";
 #endif
 
 /* ----------------------------- MNI Header -----------------------------------

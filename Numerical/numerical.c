@@ -21,7 +21,7 @@
 #include  <limits.h>
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Numerical/numerical.c,v 1.26 2005-08-17 22:28:59 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Numerical/numerical.c,v 1.26 2005/08/17 22:28:59 bert Exp $";
 #endif
 
 /* ----------------------------- MNI Header -----------------------------------

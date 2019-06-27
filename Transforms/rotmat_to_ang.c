@@ -81,7 +81,7 @@ Tue Jun  8 08:44:59 EST 1993 LC
 #include "bicpl_internal.h"
 
 #ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Transforms/rotmat_to_ang.c,v 1.21 2005-08-17 22:26:48 bert Exp $";
+static char rcsid[] = "$Header: /home/users/clepage/CVS/libraries/bicpl/Transforms/rotmat_to_ang.c,v 1.21 2005/08/17 22:26:48 bert Exp $";
 #endif
 
 #ifdef DEBUG
