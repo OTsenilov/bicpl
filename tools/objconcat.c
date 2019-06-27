@@ -128,6 +128,23 @@ int main( int argc, char * argv[] ) {
   total_indices = (int*)malloc( total_n_elems * sizeof( int ) );  // like this, yes!
   total_connec = (int*)malloc( total_n_indices * sizeof( int ) );
 
+  if( total_coords == NULL ) {
+    printf( "Cannot allocate total_coords for %d points\n", total_n_points );
+    exit(1);
+  }
+  if( total_normals == NULL ) {
+    printf( "Cannot allocate total_normals for %d points\n", total_n_points );
+    exit(1);
+  }
+  if( total_indices == NULL ) {
+    printf( "Cannot allocate total_indices for %d elements\n", total_n_elems );
+    exit(1);
+  }
+  if( total_connec == NULL ) {
+    printf( "Cannot allocate total_connec for %d indices\n", total_n_indices );
+    exit(1);
+  }
+  
   int shift_indices = 0;
   int shift_connec = 0;
   int count_points = 0;
@@ -146,11 +163,11 @@ int main( int argc, char * argv[] ) {
     }
 
     for( j = 0; j < surface->n_items; j++ ) {
-      total_indices[count_indices] += surface->end_indices[j] + shift_indices;
+      total_indices[count_indices] = surface->end_indices[j] + shift_indices;
       count_indices++;
     }
     for( j = 0; j < surface->end_indices[surface->n_items-1]; j++ ) {
-      total_connec[count_connec] += surface->indices[j] + shift_connec;
+      total_connec[count_connec] = surface->indices[j] + shift_connec;
       count_connec++;
     }
 
@@ -199,7 +216,7 @@ int main( int argc, char * argv[] ) {
   surface->normals = total_normals;
   surface->end_indices = total_indices;
   surface->indices = total_connec;
- 
+
   // ok, this could be done more efficiently if we don't want the merged surface. 
   if( strcmp( out_obj, "none" ) != 0 ) {
     expanded = expand_filename( out_obj );
