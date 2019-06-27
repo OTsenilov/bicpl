@@ -1,3 +1,13 @@
+New in Release 1.4.8
+
+* Changed return type for get_volume_total_n_voxels to size_t in labels.c
+* Added support in Volumes/scan_polygons.c to use the colour map
+  in a .obj when using scan_object_to_volume (must use colour_object
+  first with gray scale). The min/max real range can be restored 
+  later from the gray scale values using minccalc. Useful to transfer
+  cortical thickness from a surface to the volume.
+* Fixed a memory bug in objconcat.c.
+
 New in Release 1.4.7
 
 * Added colour map for labels in colour_object.c (256 colours)
