@@ -14,10 +14,6 @@
 
 #include  "bicpl_internal.h"
 
-#ifndef lint
-static char rcsid[] = "$Header: /private-cvsroot/libraries/bicpl/Volumes/labels.c,v 1.42 2005-08-17 22:26:19 bert Exp $";
-#endif
-
 /* ----------------------------- MNI Header -----------------------------------
 @NAME       : set_label_volume_real_range
 @INPUT      : volume
@@ -128,7 +124,7 @@ BICAPI void  set_all_volume_label_data(
     void            *ptr;
     Real            real_value;
     int             v0, v1, v2, v3, v4;
-    unsigned int    n_voxels;
+    size_t          n_voxels;
 
     check_alloc_label_data( volume );
 
